@@ -233,7 +233,7 @@ header {
 }
 .project-loyaut h2 {
     margin-top: 32px;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 .project-loyaut img {
     width: 100%;
@@ -253,4 +253,13 @@ header {
 
 .fill {
     max-width: none;
+}
+
+.store {
+    display: flex;
+    gap: 8px;
+}
+
+.store-button {
+    width: 135px;
 }
