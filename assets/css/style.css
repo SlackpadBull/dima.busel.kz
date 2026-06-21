@@ -2,7 +2,7 @@
     --bg: #1f1f1f;
     --text: #ffffff;
     --link: #4a77e6;
-    --accent: #1d7b3e;
+    --accent: #007423;
     --border: #3c3c3c;
     --radius: 4px;
 }
@@ -37,6 +37,7 @@ header,
     left: 0; 
     right: 0;
     margin: 0 auto;
+    pointer-events: none;
 }
 
 h1 {
@@ -83,6 +84,7 @@ a:hover {
     letter-spacing: 3%;
     background-color: var(--accent);
     transition: 0.2s;
+    pointer-events:fill;
 }
 .btn:hover {
     background-color: color-mix(in srgb, var(--accent) 80%, transparent);
