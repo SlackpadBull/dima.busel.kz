@@ -66,6 +66,7 @@ a {
     text-decoration-thickness: 1px;
     text-decoration-color: color-mix(in srgb, var(--link) 30%, transparent);
     transition: 0.2s;
+    font-weight: 400;
 }
 a:hover {
     color: var(--accent);
@@ -192,6 +193,7 @@ main {
     width: 0;
     min-width: 100%;
     overflow: hidden;
+    font-weight: 400;
 }
 
 footer {
