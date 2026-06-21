@@ -120,8 +120,8 @@ a:hover {
     .avatar-mobile {
         display:block;
     }
-    .about p {
-        min-height: 150px;
+    .about h1 {
+        font-size: 34px;
     }
 }
 
