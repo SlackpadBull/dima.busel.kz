@@ -170,18 +170,18 @@ main {
 .portfolio-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 16px;
+    gap: 16px 16px;
 }
 
 .card {
     display: inline-flex;
     flex-direction: column;
     gap: 8px;
-    min-width: 220px;
+    min-width: 200px;
     cursor: pointer;
 }
 .card-image {
-    height: 220px;
+    height: 200px;
 }
 .card-image img {
     height: 100%;
